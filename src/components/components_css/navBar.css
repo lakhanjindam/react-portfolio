@@ -1,0 +1,29 @@
+.nav-bar{
+    padding: 10px 20px;
+    
+}
+nav{
+    border-radius: 15px;  
+    opacity: 1;
+    background-color: white;
+}
+.nav-wrapper{
+    padding: 0 10px;
+    opacity: 1;
+}
+a{
+    color:black !important;
+    font-size: 100px;
+    font-weight: bold;
+
+  }
+li{
+    margin-right: 50px;
+}
+a:hover,a:active{
+    background-color: black;
+    color: black !important;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+
+}
