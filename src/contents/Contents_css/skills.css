@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap");
+
+.skills {
+  margin: 0;
+  padding: 0;
+}
+.skills-header {
+  text-align: center;
+}
+.skills-header h1 {
+  font-family: "Abril Fatface", cursive;
+}
+.skills-header hr {
+  margin: 0 42%;
+  border: 3px solid red;
+}
+.skill-content {
+  display: flex;
+  margin: 0 50px;
+  padding: 30px 20px;
+  border-left: 3.5px solid black;
+  border-right: 3.5px solid black;
+  justify-content: space-around;
+}

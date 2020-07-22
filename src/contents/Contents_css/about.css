@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap");
+
+.about {
+  padding: 20px 20px;
+  margin: 0;
+}
+.about-header {
+  text-align: center;
+}
+.about-header h1 {
+  font-family: "Abril Fatface", cursive;
+}
+.about-header hr {
+  margin: 0 42%;
+  border: 3px solid red;
+}
+.about-items {
+  padding: 20px 10px;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  padding: 10px 15px;
+  width: calc(250px * 1.586);
+  height: 250px;
+
+  border-radius: 0.75rem;
+  box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+
+  background: black;
+
+  display: flex;
+  grid-template-columns: 40% auto;
+  color: white;
+
+  align-items: center;
+}
+.name {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 600;
+  color: purple;
+}
+.card-about {
+  margin-top: 1rem;
+  display: flex;
+  grid-auto-flow: column;
+
+}
+.card-details {
+  width: 275px;
+  height: 151px;
+}
+.item {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+}
+.value {
+  font-size: 1rem;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+}
+.label {
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: purple;
+}
+
+.value {
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+@media screen and (max-width: 480px) {
+  .about-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .
+}

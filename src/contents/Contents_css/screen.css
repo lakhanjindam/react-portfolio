@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap");
+
+.home {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 30px;
+  display: inline-flexbox;
+  background-image: url("../../images/unsplash.jpg");
+  height: max-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.user {
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.user-name {
+  font-family: "Abril Fatface", cursive;
+  font-size: 70px;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+.user-name h1 {
+  position: relative;
+  color: transparent;
+  animation: text_reveal 0.5s ease forwards;
+  animation-delay: 2s;
+}
+.user-name h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: crimson;
+  animation: text_reveal_box 1s ease;
+  animation-delay: 1.5s;
+}
+.user-pic {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-image: url("../../images/user.jpg");
+  background-size: cover;
+}
+.user-name p {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  align-items: center;
+  text-align: center;
+}
+.user-name hr {
+  margin-top: -5px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 3px solid red;
+}
+
+@keyframes text_reveal_box {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0%;
+    left: 100%;
+  }
+}
+
+@keyframes text_reveal {
+  100% {
+    color: white;
+  }
+}
+@media screen and (max-width: 480px) {
+  .front-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .user {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .user-name_ {
+    order: 1;
+  }
+  .user-pic {
+    order: 2;
+  } */
+}
