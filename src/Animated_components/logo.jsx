@@ -21,7 +21,7 @@ const Logo = () => {
   };
   const icon = {
     hidden: {
-      scale: 0.6,
+      scale: 0.8,
       opacity: 0,
       pathLength: 0,
       // x: [300, -100, 0],
@@ -32,8 +32,8 @@ const Logo = () => {
       opacity: 1,
       pathLength: 1,
       transition: {
-        type: "spring",
-        ease: "easeIn",
+        type: "tween",
+        ease: "easeInOut",
         scale: {
           duration: 1.5,
           yoyo: Infinity,
@@ -64,6 +64,7 @@ const Logo = () => {
         return (
           <motion.path
             key={key}
+            fill="#FFFFFF"
             variants={icon}
             initial="hidden"
             animate="visible"

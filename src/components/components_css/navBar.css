@@ -21,7 +21,7 @@ nav {
   display: flex;
 }
 a {
-  color: black !important;
+  color: white !important;
   font-size: 100px;
   font-weight: bold;
 }
@@ -32,11 +32,12 @@ a:hover,
 a:active {
   color: white !important;
   font-weight: bold;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
 }
 @media screen and (max-width: 480px) {
   .header {
     display: flex;
     flex-flow: column-reverse;
   }
+  
 }

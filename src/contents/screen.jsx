@@ -19,33 +19,40 @@ const Screen = () => {
   };
   return (
     <section className="home">
-      <NavBar></NavBar>
-      <div className="user">
-        <motion.div className="user-name">
-          <h1>
-            Lakhan Jindam
-            <span></span>
-          </h1>
-          <hr></hr>
-          <p>
-            I am a tech enthusiast, self-learner and <br></br>ecstatic to learn
-            new technologies and frameworks
-          </p>
-        </motion.div>
-        <motion.div
-          className="user-pic"
-          variants={variants}
-          initial="hidden"
-          animate="visible"
-          whileHover={{
-            borderRadius: "20%",
-            scale: "1.1",
-            transition: {
-              ease: "easeInOut",
-              duration: 1.5,
-            },
-          }}
-        />
+      <iframe
+        title="dex"
+        src="https://harbor.naker.io/back/5f1961ea71461a00040e30f2/"
+      ></iframe>
+
+      <div className="content">
+        <NavBar></NavBar>
+        <div className="user">
+          <motion.div className="user-name">
+            <h1 style={{ letterSpacing: "1px" }}>
+              Lakhan Jindam
+              <span></span>
+            </h1>
+            <hr></hr>
+            <p style={{ letterSpacing: "1.5px" }}>
+              I am a tech enthusiast, self-learner and <br></br>ecstatic to
+              learn new technologies and frameworks
+            </p>
+          </motion.div>
+          <motion.div
+            className="user-pic"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            whileHover={{
+              borderRadius: "20%",
+              scale: "1.1",
+              transition: {
+                ease: "easeInOut",
+                duration: 1.5,
+              },
+            }}
+          />
+        </div>
       </div>
     </section>
   );

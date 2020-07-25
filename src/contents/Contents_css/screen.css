@@ -1,17 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap");
-
 .home {
-  width: 100%;
+  padding: 0;
   margin: 0;
-  padding-bottom: 30px;
-  display: inline-flexbox;
-  background-image: url("../../images/unsplash.jpg");
-  height: max-content;
+  background-color: transparent;
+}
+iframe {
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
+}
+.content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+  position: absolute;
 }
 
 .user {
@@ -90,10 +100,7 @@
     display: flex;
     flex-direction: column;
   }
-  /* .user-name_ {
-    order: 1;
-  }
   .user-pic {
-    order: 2;
-  } */
+    width: 75%;
+  }
 }

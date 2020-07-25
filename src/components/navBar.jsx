@@ -5,22 +5,22 @@ import Logo from "../Animated_components/logo";
 
 const NavBar = () => {
   return (
-    <div className="header">
+    <div className="header center row">
       <div className="logo">
         <Logo></Logo>
       </div>
       <div className="nav-bar">
         <nav>
-          <div className="nav-wrapper">
+          <div className="nav-wrapper row">
             <ul className="right show-on-small-and-up">
               <li>
-                <Link to="#">Home</Link>
+                <a href="#">Home</a>
               </li>
               <li>
-                <Link to="">About</Link>
+                <a href="#about">About</a>
               </li>
               <li>
-                <Link to="">Contact</Link>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
