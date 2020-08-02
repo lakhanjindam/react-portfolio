@@ -1,0 +1,97 @@
+.project {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.project-header {
+  text-align: center;
+}
+.project-header h1 {
+  font-family: "Abril Fatface", cursive;
+}
+.project-header hr {
+  margin: 0 42%;
+  border: 3px solid red;
+}
+.project-content {
+  padding: 20px 50px;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.items {
+  padding: 5px 5px;
+  margin: 10px 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  border-radius: 0.75rem;
+  justify-content: space-between;
+}
+.image {
+  width: 40%;
+  background-image: url("../../project_images/project1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.75rem;
+
+  display: flex;
+}
+.items-content {
+  padding: 0 5px;
+  margin: 0;
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.75rem;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.title hr {
+  margin: 0 38%;
+  border: 3px solid purple;
+}
+.title h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+  margin: 0;
+}
+.description p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-wrap: break-word;
+}
+.project-link {
+  height: 50px;
+  width: 48%;
+  background-color: grey;
+  display: flex;
+  border-radius: 0.72rem;
+}
+.github {
+  padding: 7px 0;
+  margin: 0 auto;
+  width: 70%;
+}
+.github h3 {
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 23px;
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 480px) {
+  .items {
+    flex-direction: column;
+  }
+}

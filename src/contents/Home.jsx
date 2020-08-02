@@ -3,6 +3,7 @@ import Screen from "./screen";
 import Skills from "./Skills";
 import About from "./About";
 import Footer from "../components/footer";
+import Projects from "./Projects";
 
 export default class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class Home extends Component {
         <Screen></Screen>
         <Skills></Skills>
         <About></About>
+        <Projects></Projects>
         <Footer></Footer>
       </div>
     );

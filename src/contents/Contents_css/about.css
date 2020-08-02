@@ -85,4 +85,7 @@
     display: flex;
     flex-direction: column;
   }
+  .card {
+    transform: scale(0.8);
+  }
 }

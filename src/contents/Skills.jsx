@@ -5,7 +5,7 @@ import DevLogo from "../utils/skills_data";
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section id="skill" className="skills">
       <div className="skills-header">
         <h1>Skills</h1>
         <hr></hr>
